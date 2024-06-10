@@ -5,9 +5,9 @@ import NavBarMain from "../Page/NavBar/NavBarMain";
 const Main = () => {
     return (
         <div>
-           
-            <Outlet></Outlet>
             <NavBarMain></NavBarMain>
+            <Outlet></Outlet>
+           
         </div>
     );
 };

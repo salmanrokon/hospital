@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { FaClinicMedical, FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaBars } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
@@ -7,10 +7,26 @@ import { NavLink } from "react-router-dom";
 
 const NavBarMain = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [showPopup, setShowPopup] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setShowPopup(true);
+            } else {
+                setShowPopup(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     return (
         <div className="bg-red-700">
@@ -86,8 +102,8 @@ const NavBarMain = () => {
                 </div>
             </div>
             {menuOpen && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-end">
-                    <div className="bg-white h-full shadow-xl p-4 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-7xl">
+                <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex">
+                    <div className="bg-white h-full shadow-xl p-4 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-7xl transform transition-transform duration-300 translate-x-0">
                         <button className="text-black mb-4" onClick={toggleMenu}>Close</button>
                         <div className="flex flex-col lg:hidden">
                             <div className="flex items-center gap-4 text-black mb-4">
@@ -134,6 +150,20 @@ const NavBarMain = () => {
                             </div>
                             <a className="btn mt-4 w-full rounded-none text-center">BOOK AN APPOINTMENT</a>
                         </div>
+                    </div>
+                </div>
+            )}
+            {showPopup && (
+                <div className="fixed top-0 left-0 right-0 bg-red-700 z-50 p-4 flex justify-between items-center shadow-lg">
+                    <ul className="menu menu-horizontal px-1 w-full lg:w-auto">
+                        <li><NavLink to="/" className="text-base text-white">HOME</NavLink></li>
+                        <li><NavLink to="/service" className="text-base text-white">SERVICE</NavLink></li>
+                        <li><NavLink to="/blog" className="text-base text-white">BLOG</NavLink></li>
+                        <li><NavLink to="/about" className="text-base text-white">ABOUT</NavLink></li>
+                        <li><NavLink to="/contact" className="text-base text-white">CONTACT</NavLink></li>
+                    </ul>
+                    <div className="navbar-end">
+                        <a className="btn rounded-none">BOOK AN APPOINTMENT</a>
                     </div>
                 </div>
             )}
