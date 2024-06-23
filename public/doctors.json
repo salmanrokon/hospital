@@ -1,0 +1,74 @@
+[
+    {
+        "_id": "1",
+        "doctor_id": "D001",
+        "doctor_name": "Dr. Alice Smith",
+        "degree": "MD",
+        "image": "https://i.ibb.co/khCNmRs/1.png",
+        "speciality": "Cardiologist",
+        "visit_time": "09:00 AM - 12:00 PM",
+        "visit_fee": 150,
+        "experience": 10,
+        "info": "Dr. Alice Smith has been a practicing cardiologist for over a decade. She specializes in treating heart diseases and managing patients' cardiovascular health."
+    },
+    {
+        "_id": "2",
+        "doctor_id": "D002",
+        "doctor_name": "Dr. Bob Johnson",
+        "degree": "MBBS, MS",
+        "image": "https://i.ibb.co/wgy2qV0/5.png",
+        "speciality": "Orthopedic Surgeon",
+        "visit_time": "01:00 PM - 04:00 PM",
+        "visit_fee": 200,
+        "experience": 15,
+        "info": "Dr. Bob Johnson is a highly experienced orthopedic surgeon known for his expertise in joint replacements and sports injuries."
+    },
+    {
+        "_id": "3",
+        "doctor_id": "D003",
+        "doctor_name": "Dr. Carol Davis",
+        "degree": "MD, PhD",
+        "image": "https://i.ibb.co/r2bqSX8/2.png",
+        "speciality": "Neurologist",
+        "visit_time": "10:00 AM - 01:00 PM",
+        "visit_fee": 250,
+        "experience": 12,
+        "info": "Dr. Carol Davis is a renowned neurologist with a PhD in neuroscience. She has a keen interest in research and treatment of neurological disorders."
+    },
+    {
+        "_id": "4",
+        "doctor_id": "D004",
+        "doctor_name": "Dr. Daniel Wilson",
+        "degree": "MBBS",
+        "image": "https://i.ibb.co/85cCmBv/3.png",
+        "speciality": "Pediatrician",
+        "visit_time": "08:00 AM - 11:00 AM",
+        "visit_fee": 100,
+        "experience": 8,
+        "info": "Dr. Daniel Wilson is a compassionate pediatrician dedicated to providing excellent care to children of all ages. He focuses on preventive care and healthy development."
+    },
+    {
+        "_id": "5",
+        "doctor_id": "D005",
+        "doctor_name": "Dr. Emma Brown",
+        "degree": "MD",
+        "image": "https://i.ibb.co/6HMFxCx/4.png",
+        "speciality": "Dermatologist",
+        "visit_time": "02:00 PM - 05:00 PM",
+        "visit_fee": 180,
+        "experience": 9,
+        "info": "Dr. Emma Brown is a skilled dermatologist with expertise in treating a wide range of skin conditions. She is also proficient in cosmetic dermatology."
+    },
+    {
+        "_id": "6",
+        "doctor_id": "D006",
+        "doctor_name": "Dr. Frank Green",
+        "degree": "MBBS, MS, MCh",
+        "image": "https://i.ibb.co/khCNmRs/1.png",
+        "speciality": "Cardiothoracic Surgeon",
+        "visit_time": "03:00 PM - 06:00 PM",
+        "visit_fee": 300,
+        "experience": 20,
+        "info": "Dr. Frank Green is a distinguished cardiothoracic surgeon with over 20 years of experience. He specializes in complex heart and lung surgeries."
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "1",
+        "Title": "New Cancer Treatment Discovered",
+        "Meta Description": "A groundbreaking new treatment for cancer has been discovered.",
+        "Image": "https://example.com/images/cancer-treatment.jpg",
+        "Publish_date": "2024-06-01",
+        "posted_by": "Dr. John Smith",
+        "Full_description": "Researchers at the National Cancer Institute have discovered a new treatment that shows promise in eradicating cancer cells without damaging healthy tissue.",
+        "category": "News"
+    },
+    {
+        "_id": "2",
+        "Title": "Hospital Business Model Evolution",
+        "Meta Description": "Exploring the evolution of hospital business models in the modern healthcare landscape.",
+        "Image": "https://example.com/images/hospital-business.jpg",
+        "Publish_date": "2024-05-15",
+        "posted_by": "Jane Doe",
+        "Full_description": "With the rise of telemedicine and outpatient services, traditional hospital business models are evolving rapidly.",
+        "category": "Business"
+    },
+    {
+        "_id": "3",
+        "Title": "5 Tips for a Healthier Lifestyle",
+        "Meta Description": "Simple and effective tips for maintaining a healthier lifestyle.",
+        "Image": "https://example.com/images/healthy-lifestyle.jpg",
+        "Publish_date": "2024-06-10",
+        "posted_by": "Health Expert",
+        "Full_description": "Incorporate these five tips into your daily routine to enjoy a healthier and more fulfilling life.",
+        "category": "Tips&Tricks"
+    },
+    {
+        "_id": "4",
+        "Title": "Meditation Benefits",
+        "Meta Description": "Discover the numerous benefits of incorporating meditation into your daily routine.",
+        "Image": "https://example.com/images/meditation.jpg",
+        "Publish_date": "2024-06-20",
+        "posted_by": "Yoga Instructor",
+        "Full_description": "Meditation can significantly reduce stress, improve concentration, and enhance overall well-being.",
+        "category": ""
+    },
+    {
+        "_id": "5",
+        "Title": "Financial Planning for Healthcare Workers",
+        "Meta Description": "Effective financial planning strategies for healthcare professionals.",
+        "Image": "https://example.com/images/financial-planning.jpg",
+        "Publish_date": "2024-06-05",
+        "posted_by": "Financial Advisor",
+        "Full_description": "Healthcare workers can benefit greatly from tailored financial planning to manage their unique financial situations.",
+        "category": "Business"
+    },
+    {
+        "_id": "6",
+        "Title": "Understanding Heart Disease",
+        "Meta Description": "An in-depth look at the causes, symptoms, and treatment options for heart disease.",
+        "Image": "https://example.com/images/heart-disease.jpg",
+        "Publish_date": "2024-05-25",
+        "posted_by": "Cardiologist",
+        "Full_description": "Heart disease remains the leading cause of death worldwide. This article explores the latest research and treatment options available.",
+        "category": "News"
+    },
+    {
+        "_id": "7",
+        "Title": "Top 10 Healthy Eating Habits",
+        "Meta Description": "Adopt these healthy eating habits to improve your diet and overall health.",
+        "Image": "https://example.com/images/healthy-eating.jpg",
+        "Publish_date": "2024-06-12",
+        "posted_by": "Nutritionist",
+        "Full_description": "These ten healthy eating habits are easy to follow and can make a significant impact on your health.",
+        "category": "Tips&Tricks"
+    },
+    {
+        "_id": "8",
+        "Title": "AI in Modern Healthcare",
+        "Meta Description": "How artificial intelligence is revolutionizing the healthcare industry.",
+        "Image": "https://example.com/images/ai-healthcare.jpg",
+        "Publish_date": "2024-06-18",
+        "posted_by": "Tech Analyst",
+        "Full_description": "Artificial intelligence is being increasingly integrated into healthcare, offering advancements in diagnosis, treatment, and patient care.",
+        "category": ""
+    }
+]

@@ -1,0 +1,379 @@
+[
+    {
+        "_id": "1",
+        "service": "Psychiatry",
+        "doctor_name": "Dr. John Smith",
+        "doctor_id": "D001",
+        "service_image": "https://ibb.co/FBTRHSL",
+        "doctor_degree": "MD, Psychiatry",
+        "Info": "Dr. Smith specializes in mental health, including substance use disorders.Meditex Clinic's Department of Psychiatry provides comprehensive mental health care",
+        "doctors": [
+            {
+                "name": "Dr. John Smith",
+                "id": "D001",
+                "doctor_image": "https://i.ibb.co/r2bqSX8/2.png"
+            },
+            {
+                "name": "Dr. Emma Johnson",
+                "id": "D002",
+                "doctor_image": "https://i.ibb.co/khCNmRs/1.png"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. John Smith",
+            "years_of_experience": 15,
+            "phone_number": "123-456-7890",
+            "languages": ["English", "Spanish"],
+            "doctor_image": "https://example.com/images/john_smith.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "PiBrainBold",
+        "visit_hours": {
+            "sunday": "7pm-9pm",
+            "monday": "8am-4pm",
+            "tuesday": "8am-4pm",
+            "wednesday": "8am-4pm",
+            "thursday": "8am-4pm",
+            "friday": "8am-4pm",
+            "saturday": "10am-2pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Psychiatry provides comprehensive mental health care. Services include individual therapy, group therapy, and medication management for various mental health conditions.",
+        "pricing": {
+            "Initial Consultation": "$200",
+            "Follow-up Visit": "$150",
+            "Therapy Session": "$100 per hour",
+            "Medication Management": "$80 per session"
+        }
+    },
+    {
+        "_id": "2",
+        "service": "Ophthalmology",
+        "doctor_name": "Dr. Linda Brown",
+        "doctor_id": "D003",
+        "service_image": "https://example.com/images/ophthalmology.jpg",
+        "doctor_degree": "MD, Ophthalmology",
+        "Info": "Dr. Brown is an expert in eye diseases and surgery.",
+        "doctors": [
+            {
+                "name": "Dr. Linda Brown",
+                "id": "D003",
+                "doctor_image": "https://example.com/images/linda_brown.jpg"
+            },
+            {
+                "name": "Dr. James White",
+                "id": "D004",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Linda Brown",
+            "years_of_experience": 20,
+            "phone_number": "234-567-8901",
+            "languages": ["English", "French"],
+            "doctor_image": "https://example.com/images/linda_brown.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "IoMdEye",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "9am-5pm",
+            "tuesday": "9am-5pm",
+            "wednesday": "9am-5pm",
+            "thursday": "9am-5pm",
+            "friday": "9am-5pm",
+            "saturday": "10am-2pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Ophthalmology offers specialized eye care, including cataract surgery, glaucoma treatment, and laser eye surgery.",
+        "pricing": {
+            "Eye Exam": "$100",
+            "Cataract Surgery": "$3000",
+            "LASIK Surgery": "$2000",
+            "Glaucoma Treatment": "$1500"
+        }
+    },
+    {
+        "_id": "3",
+        "service": "Cardiology",
+        "doctor_name": "Dr. Richard Lee",
+        "doctor_id": "D005",
+        "service_image": "https://example.com/images/cardiology.jpg",
+        "doctor_degree": "MD, Cardiology",
+        "Info": "Dr. Lee specializes in heart diseases and treatments.",
+        "doctors": [
+            {
+                "name": "Dr. Richard Lee",
+                "id": "D005",
+                "doctor_image": "https://example.com/images/richard_lee.jpg"
+            },
+            {
+                "name": "Dr. Nancy Green",
+                "id": "D006",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Richard Lee",
+            "years_of_experience": 25,
+            "phone_number": "345-678-9012",
+            "languages": ["English", "Chinese"],
+            "doctor_image": "https://example.com/images/richard_lee.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "FaHeart",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "8am-4pm",
+            "tuesday": "8am-4pm",
+            "wednesday": "8am-4pm",
+            "thursday": "8am-4pm",
+            "friday": "8am-4pm",
+            "saturday": "10am-2pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Cardiology provides comprehensive heart care, including diagnostic tests, interventional procedures, and post-operative care.",
+        "pricing": {
+            "Initial Consultation": "$250",
+            "Follow-up Visit": "$200",
+            "ECG": "$150",
+            "Echocardiogram": "$300",
+            "Cardiac Catheterization": "$5000"
+        }
+    },
+    {
+        "_id": "4",
+        "service": "Immunology",
+        "doctor_name": "Dr. Susan Wilson",
+        "doctor_id": "D007",
+        "service_image": "https://example.com/images/immunology.jpg",
+        "doctor_degree": "MD, Immunology",
+        "Info": "Dr. Wilson is an expert in immune system disorders.",
+        "doctors": [
+            {
+                "name": "Dr. Susan Wilson",
+                "id": "D007",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            },
+            {
+                "name": "Dr. Robert Davis",
+                "id": "D008",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Susan Wilson",
+            "years_of_experience": 18,
+            "phone_number": "456-789-0123",
+            "languages": ["English", "German"],
+            "doctor_image": "https://example.com/images/susan_wilson.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "FaMicroscope",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "8am-4pm",
+            "tuesday": "8am-4pm",
+            "wednesday": "8am-4pm",
+            "thursday": "8am-4pm",
+            "friday": "8am-4pm",
+            "saturday": "10am-2pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Immunology specializes in diagnosing and treating immune system disorders, including allergies, autoimmune diseases, and immunodeficiency disorders.",
+        "pricing": {
+            "Initial Consultation": "$200",
+            "Allergy Testing": "$250",
+            "Immunotherapy": "$150 per session",
+            "Autoimmune Disease Management": "$200 per session"
+        }
+    },
+    {
+        "_id": "5",
+        "service": "Hematology",
+        "doctor_name": "Dr. William Taylor",
+        "doctor_id": "D009",
+        "service_image": "https://example.com/images/hematology.jpg",
+        "doctor_degree": "MD, Hematology",
+        "Info": "Dr. Taylor specializes in blood diseases.",
+        "doctors": [
+            {
+                "name": "Dr. William Taylor",
+                "id": "D009",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            },
+            {
+                "name": "Dr. Karen Martinez",
+                "id": "D010",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. William Taylor",
+            "years_of_experience": 22,
+            "phone_number": "567-890-1234",
+            "languages": ["English", "Italian"],
+            "doctor_image": "https://example.com/images/susan_wilson.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "MdBloodtype",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "9am-5pm",
+            "tuesday": "9am-5pm",
+            "wednesday": "9am-5pm",
+            "thursday": "9am-5pm",
+            "friday": "9am-5pm",
+            "saturday": "10am-2pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Hematology offers diagnosis and treatment for blood disorders, including anemia, leukemia, and clotting disorders.",
+        "pricing": {
+            "Initial Consultation": "$220",
+            "Blood Test": "$100",
+            "Bone Marrow Biopsy": "$1200",
+            "Chemotherapy": "$2000 per session"
+        }
+    },
+    {
+        "_id": "6",
+        "service": "Laboratory",
+        "doctor_name": "Dr. Jennifer Harris",
+        "doctor_id": "D011",
+        "service_image": "https://example.com/images/laboratory.jpg",
+        "doctor_degree": "PhD, Clinical Laboratory Science",
+        "Info": "Dr. Harris oversees all laboratory testing and procedures.",
+        "doctors": [
+            {
+                "name": "Dr. Jennifer Harris",
+                "id": "D011",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            },
+            {
+                "name": "Dr. Charles Robinson",
+                "id": "D012",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Jennifer Harris",
+            "years_of_experience": 10,
+            "phone_number": "678-901-2345",
+            "languages": ["English", "Japanese"],
+            "doctor_image": "https://example.com/images/susan_wilson.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "ImLab",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "7am-3pm",
+            "tuesday": "7am-3pm",
+            "wednesday": "7am-3pm",
+            "thursday": "7am-3pm",
+            "friday": "7am-3pm",
+            "saturday": "8am-12pm"
+        },
+        "detail_info": "Meditex Clinic's Laboratory Department provides comprehensive laboratory testing and diagnostic services, ensuring accurate and timely results for patients.",
+        "pricing": {
+            "Basic Blood Test": "$50",
+            "Comprehensive Metabolic Panel": "$100",
+            "Urinalysis": "$30",
+            "Liver Function Test": "$70"
+        }
+    },
+    {
+        "_id": "7",
+        "service": "Oncology",
+        "doctor_name": "Dr. Michael Clark",
+        "doctor_id": "D013",
+        "service_image": "https://example.com/images/oncology.jpg",
+        "doctor_degree": "MD, Oncology",
+        "Info": "Dr. Clark is an expert in cancer treatment.",
+        "doctors": [
+            {
+                "name": "Dr. Michael Clark",
+                "id": "D013",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            },
+            {
+                "name": "Dr. Patricia Rodriguez",
+                "id": "D014",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Michael Clark",
+            "years_of_experience": 12,
+            "phone_number": "789-012-3456",
+            "languages": ["English", "Portuguese"],
+            "doctor_image": "https://example.com/images/susan_wilson.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "GiMedicines",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "8am-5pm",
+            "tuesday": "8am-5pm",
+            "wednesday": "8am-5pm",
+            "thursday": "8am-5pm",
+            "friday": "8am-5pm",
+            "saturday": "9am-1pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Oncology provides state-of-the-art cancer treatment, including chemotherapy, radiation therapy, and surgical oncology.",
+        "pricing": {
+            "Initial Consultation": "$300",
+            "Chemotherapy": "$2000 per session",
+            "Radiation Therapy": "$2500 per session",
+            "Surgical Oncology": "$15000"
+        }
+    },
+    {
+        "_id": "8",
+        "service": "Dental",
+        "doctor_name": "Dr. Laura Walker",
+        "doctor_id": "D015",
+        "service_image": "https://example.com/images/dental.jpg",
+        "doctor_degree": "DDS, Dentistry",
+        "Info": "Dr. Walker provides comprehensive dental care.",
+        "doctors": [
+            {
+                "name": "Dr. Laura Walker",
+                "id": "D015",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            },
+            {
+                "name": "Dr. George Lewis",
+                "id": "D016",
+                "doctor_image": "https://example.com/images/susan_wilson.jpg"
+            }
+        ],
+        "Head_of_department": {
+            "name": "Dr. Laura Walker",
+            "years_of_experience": 8,
+            "phone_number": "890-123-4567",
+            "languages": ["English", "Spanish"],
+            "doctor_image": "https://example.com/images/susan_wilson.jpg"
+        },
+        "lab_facility": "Yes",
+        "icon": "TbDental",
+        "visit_hours": {
+            "sunday": "Closed",
+            "monday": "8am-6pm",
+            "tuesday": "8am-6pm",
+            "wednesday": "8am-6pm",
+            "thursday": "8am-6pm",
+            "friday": "8am-6pm",
+            "saturday": "9am-3pm"
+        },
+        "detail_info": "Meditex Clinic's Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the person's needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care). An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:\n\nPreventive Dental Care:\n\nOral Exam/Radiograph Study (mandatory at initial visit)\nPeriodontal Scaling/Deep Cleaning\nDental care for pregnant patients consists on evaluation and cleaning; mainly, to educate patients on oral health care and pregnancy\nRestorative Dentistry – Amalgam/Composite Fillings",
+        "pricing": {
+            "Cosmetic Dentistry": {
+                "Porcelain Veneers": "$1200",
+                "Dental Bonding": "$100",
+                "Laser Gum Contouring": "$300",
+                "Teeth Whitening": "$200"
+            },
+            "Restorative Dentistry": {
+                "Dental Bridges": "$1000",
+                "Dental Crowns": "$500",
+                "Dental Fillings": "$100",
+                "Inlays and Onlays": "$800"
+            }
+        }
+    }
+]
