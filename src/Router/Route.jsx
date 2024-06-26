@@ -10,6 +10,9 @@ import BlogDetails from "../Page/BlogDetails/BlogDetails";
 import ContactForm from "../Page/ContactForm/ContactForm";
 import LogIn from "../Page/LogIn/LogIn";
 import Register from "../Page/Register/Register";
+import Dashboard from "../Layout/Dashboard";
+import Doctors from "../Page/Dashboard/Doctors/Doctors";
+import AddDoctor from "../Page/Dashboard/AddDoctor/AddDoctor";
 
 
 const router = createBrowserRouter([
@@ -59,5 +62,23 @@ const router = createBrowserRouter([
         }
       ]
     },
+    {
+      path:"dashboard",
+      element:<Dashboard></Dashboard>,
+      children:[
+        {
+          path:"dashboard",
+          element:<Dashboard></Dashboard>
+        },
+        {
+          path:"doctors",
+          element:<Doctors></Doctors>
+        },
+        {
+          path:"doctor",
+          element:<AddDoctor></AddDoctor>
+        }
+      ]
+    }
   ]);
   export default router;

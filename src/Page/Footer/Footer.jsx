@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <div className="flex flex-col lg:flex-row items-center gap-2">
                         <FaClinicMedical className="text-4xl text-red-600" />
-                        <p className="text-5xl font-bold">HOPE</p>
+                        <p className="text-5xl font-bold">TOP ORION</p>
                     </div>
                     <div>
                         <p className="w-96 mb-4">

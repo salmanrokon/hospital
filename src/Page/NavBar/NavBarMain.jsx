@@ -57,7 +57,7 @@ const NavBarMain = () => {
                     <div className="flex gap-4">
                         <FaClinicMedical className="text-4xl text-white" />
                         <div>
-                            <h1 className="text-4xl font-extrabold text-white">HOPE</h1>
+                            <h1 className="text-4xl font-extrabold text-white">TOP ORION</h1>
                             <p>Medical</p>
                         </div>
                     </div>

@@ -2,12 +2,67 @@ import { useForm } from 'react-hook-form';
 import { CiStethoscope } from 'react-icons/ci';
 import { FaCapsules, FaHeartbeat } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import UseAuth from '../../Hooks/UseAuth';
+import UseAxiosPublic from '../../Hooks/UseAxiosPublic';
+import Swal from 'sweetalert2';
+
+const image_hosting_key = import.meta.env.VITE_image_hosting_key;
+const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
 
 const Register = () => {
-    const { register, handleSubmit } = useForm();
+    const { createUser } = UseAuth();
+    const axiosPublic = UseAxiosPublic();
+    const { register, handleSubmit,reset } = useForm();
 
-    const onSubmit = data => {
-        console.log(data);
+    const onSubmit = async (data) => {
+        try {
+            console.log(data);
+
+            // Get the image file from the form data
+            const imageFile = data.image[0];
+            const formData = new FormData();
+            formData.append('image', imageFile);
+
+            // Upload the image
+            const res = await axiosPublic.post(image_hosting_api, formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            });
+
+            console.log(res.data);
+
+            if (res.data.success) {
+                // Create the user
+                const userRes = await createUser(data.email, data.password);
+                const userInfo = {
+                    name: data.name,
+                    email: data.email,
+                    password: data.password,
+                    image: res.data.data.display_url,
+                };
+
+                console.log(userRes.user);
+
+                // Save the user to the database
+                const saveUserRes = await axiosPublic.post('/users', userInfo);
+                console.log('server input', saveUserRes.data);
+
+                if (saveUserRes.data.insertedId) {
+                    Swal.fire({
+                        title: "Great!",
+                        text: "You are successfully registered",
+                        imageUrl: res.data.data.display_url,
+                        imageWidth: 400,
+                        imageHeight: 200,
+                        imageAlt: "Top Orion"
+                      });
+                    reset();
+                }
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
     };
 
     return (
@@ -58,9 +113,9 @@ const Register = () => {
                             />
                         </div>
                         <div>
-                            <label className="block text-sm font-medium text-gray-700">Profile Picture</label>
+                            <label className="block text-sm font-medium text-gray-700">Image</label>
                             <input
-                                {...register('profilePicture', { required: true })}
+                                {...register('image', { required: true })}
                                 className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                 type="file"
                             />
