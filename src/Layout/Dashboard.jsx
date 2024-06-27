@@ -69,7 +69,7 @@ const Dashboard = () => {
                                                 <NavLink to="/dashboard/doctor">Add Doctors</NavLink>
                                             </li>
                                             <li className="flex items-center gap-2 text-base hover:bg-blue-500 py-2">
-                                                <NavLink to="/dashboard/edit-doctors">Edit Doctors</NavLink>
+                                                <NavLink to="/dashboard/edit-doctors/:id">Edit Doctors</NavLink>
                                             </li>
                                             <li className="flex items-center gap-2 text-base hover:bg-blue-500 py-2">
                                                 <NavLink to="/dashboard/doctors-profile">Doctors Profile</NavLink>

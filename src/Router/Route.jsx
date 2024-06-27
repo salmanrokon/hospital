@@ -13,6 +13,7 @@ import Register from "../Page/Register/Register";
 import Dashboard from "../Layout/Dashboard";
 import Doctors from "../Page/Dashboard/Doctors/Doctors";
 import AddDoctor from "../Page/Dashboard/AddDoctor/AddDoctor";
+import EditDoctors from "../Page/Dashboard/EditDoctors/EditDoctors";
 
 
 const router = createBrowserRouter([
@@ -77,6 +78,10 @@ const router = createBrowserRouter([
         {
           path:"doctor",
           element:<AddDoctor></AddDoctor>
+        },
+        {
+          path:"edit-doctors/:id",
+          element:<EditDoctors></EditDoctors>
         }
       ]
     }

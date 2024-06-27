@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import UseAxiosSecure from "../../../Hooks/UseAxiosSecure";
+import { Link } from "react-router-dom";
 
 const Doctors = () => {
     
@@ -12,8 +13,10 @@ const Doctors = () => {
         }
     })
     const truncateText=(text,wordsLimit)=>{
+        if(!text) return '';
         //convert text into array for counting words
         const words=text.split(' ');
+        
         //check the length of array
         if(words.length<=wordsLimit){
             return text;
@@ -35,7 +38,7 @@ const Doctors = () => {
                         <h2 className="card-title">{doctor.doctor_name}</h2>
                         <p>{doctor.speciality}</p>
                         <p>{truncateText(doctor.info,10)}</p>
-                        
+                        <Link to={`/dashboard/edit-doctors/${doctor._id}`}><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-teal-500">Update</button></Link>
                     </div>
                 </div>)
             }
